@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formular</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Formular</h1>
+
+        <form method="get" action="formular.html">
+            <label>Anrede:</label>
+            <label for="herr">Herr</label><input type="radio" name="geschlecht" id="herr" value="Herr">
+
+            <label for="frau">Frau</label><input type="radio" name="geschlecht" id="frau" value="Frau">
+
+            <label for="nose">Weiss nicht</label><input type="radio" name="geschlecht" id="nose" value="Weiss nicht">
+            <br><br>
+
+
+            <label for="vorname">Vorname:</label><input type="text" name="vorname" id="vorname" placeholder="Vorname" required>
+            <br>
+
+            <label for="xyz">Name:</label><input type="text" name="name" id="xyz" placeholder="Name" value="Simpson">
+            <br>
+
+            <label for="land">Land:</label>
+            <select name="land" id="land">
+                <option value="CH">Schweiz</option>
+                <option value="D" selected>Deutschland</option>
+                <option value="I">Italien</option>
+            </select>
+            <br><br>
+
+            <!-- Was in der Textarea ist, ist nicht html, Zeilenumbruche werden dargestellt-->
+            <label for="kommentar">Kommentar:</label><textarea name="kommentar" id="kommentar" cols="30" rows="5">
+        Zeile1
+        Zeile2
+        </textarea>
+            <br><br>
+
+            <label for="agb">AGB gelesen</label><input type="checkbox" id="agb" name="agb">
+            <br><br>
+
+            <input type="submit" value="los geht's">
+        </form>
+    </div>
+</body>
+</html>
