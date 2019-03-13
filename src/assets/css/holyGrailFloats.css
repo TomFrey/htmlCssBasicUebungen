@@ -1,0 +1,30 @@
+
+header, footer {
+    background-color: red;
+}
+
+
+nav, article, aside {
+    float: left;
+}
+
+nav {
+    background-color: blue;
+}
+
+article {
+    background-color: yellow;
+}
+
+aside {
+    background-color: orange;
+}
+
+
+.break {
+    clear: both;
+}
+
+footer {
+    background-color: green;
+}
