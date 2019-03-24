@@ -48,7 +48,7 @@ gulp.task('serveCss', () => {
     /**
      * watch for changes in css files
      */
-    gulp.watch('./src/assets/css/**/*.css').on('change', browserSync.reload);
+    gulp.watch('./src/assets/demoCss/**/*.css').on('change', browserSync.reload);
 
     /**
      * watch for changes in html files
