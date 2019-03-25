@@ -1,0 +1,95 @@
+
+.wrapper{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.clearfix{
+    clear: both;
+}
+
+
+header, footer{
+    background-color: rgb(200,0,0);
+    height: 50px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav{
+    background-color: rgb(0,0,0);
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    list-style-type: none;
+    float: left;
+    padding: 0;
+}
+
+nav ul li:not(:last-of-type)::after{
+    content: "|";
+}
+
+nav ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 10px 2px 10px;
+}
+
+
+nav ul li a:hover{
+    color: rgb(0,255,100);
+}
+
+
+
+/* unter menu*/
+nav ul li ul {
+    position: absolute;
+    display: none;
+    background-color: black;
+    color: white;
+}
+
+nav ul li ul li{
+    float: none;
+}
+
+
+
+nav ul li:hover ul {
+    display: block;
+}
+
+
+main, aside{
+    float: left;
+    height: 200px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    background-color: rgb(220,220,220);
+    width: 70%;
+}
+
+aside {
+    background-color: rgb(180,180,180);
+    width: 30%;
+}
+
+
+
+
+
