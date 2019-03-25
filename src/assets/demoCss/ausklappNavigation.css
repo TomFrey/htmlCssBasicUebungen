@@ -46,9 +46,35 @@ nav ul li a{
     padding: 2px 10px 2px 10px;
 }
 
+
 nav ul li a:hover{
     color: rgb(0,255,100);
 }
+
+
+
+/* unter menu*/
+nav ul li ul {
+    position: absolute;
+    display: none;
+    background-color: black;
+    color: white;
+}
+
+nav ul li ul li{
+    float: none;
+}
+
+nav ul li ul li:not(:last-of-type)::after{
+   content: "";
+}
+
+
+
+nav ul li:hover ul {
+    display: block;
+}
+
 
 main, aside{
     float: left;
