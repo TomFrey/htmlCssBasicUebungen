@@ -1,0 +1,13 @@
+.wrapper{
+    background-color: rgb(100,100,100);
+    border: 2px solid rgb(0,0,0);
+    min-height: 500px;
+    position: relative;
+}
+
+.wrapper  div{
+    background-color: rgb(255,100,100);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
