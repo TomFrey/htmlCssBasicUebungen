@@ -1,7 +1,7 @@
 .wrapper{
     background-color: rgb(100,100,100);
     border: 2px solid rgb(0,0,0);
-    min-height: 500px;
+    min-height: 2in;
     position: relative;
 }
 

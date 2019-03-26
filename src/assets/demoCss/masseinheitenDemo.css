@@ -1,0 +1,59 @@
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 200%;  /* 16px * 2 = 36px */
+}
+
+li{
+    list-style: none;
+}
+
+
+p {
+    font-size: 1rem;
+}
+
+
+ul li{
+    font-size: 0.5rem;
+}
+
+ul li ul li{
+    font-size: 0.5rem;
+}
+
+ul li ul li ul li{
+    font-size: 0.5rem;
+}
+
+
+.em ul li{
+    font-size: 0.5em;
+}
+
+.em ul li ul li{
+    font-size: 0.5em;
+}
+
+.em ul li ul li ul li{
+    font-size: 0.5em;
+}
+
+
+.vw60, .vw40, .vw20{
+    background: rgb(0,255,0);
+    font-size: 1rem;
+    min-height: 50px;
+    margin-bottom: 5px;
+}
+
+.vw60{
+    width: 60vw;
+}
+
+.vw40{
+    width: 40vw;
+}
+
+.vw20{
+    width: 20vw;
+}
