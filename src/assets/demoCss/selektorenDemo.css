@@ -1,0 +1,62 @@
+div, section{
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+
+/*Wie selektiere ich alle h1 und h2 Elemente? */
+h1, h2 {
+    color: rgb(255,0,0);
+}
+
+
+/*Wie selektiere ich alle span in einem h1 Element? */
+h1 span {
+    font-style: italic;
+}
+
+
+/*Wie selektiere ich alle li in einem ul Element? */
+ul li {
+   list-style: none;
+}
+
+
+/*Wie selektiere ich alle p, wo ein div das Eltern-element ist? */
+/*div > p {
+    font-weight: bold;
+}*/
+
+
+/*Wie selektiere ich alle ersten p Elemente, die unmittelbar nach einer section folgten? */
+/*section + p {
+    background-color: #456787;
+}*/
+
+
+/*Wie selektiere ich alle p Elemente, die  unmittelbar nach einer section folgen? */
+/*
+section ~ p {
+    color: greenyellow;
+}*/
+
+
+/*Wie selektiere ich alle p Elemente, die das erste Element ihres Eltern-Elementes sind? */
+/*p:first-child {
+    background-color: greenyellow;
+    color: red;
+}*/
+
+
+/*Wie selektiere ich alle p Elemente, die das letzte Element ihres Eltern-Elementes sind? */
+/*p:last-child {
+    background-color: yellow;
+    color: red;
+}*/
+
+
+/*Wie selektiere ich alle p Elemente, die das erste p Element ihres Eltern-Elementes sind? */
+/*p:first-of-type {
+    background-color: greenyellow;
+    color: red;
+}*/
