@@ -1,13 +1,22 @@
 .wrapper{
     background-color: rgb(100,100,100);
     border: 2px solid rgb(0,0,0);
-    min-height: 2in;
+    min-height: 700px;
     position: relative;
 }
 
-.wrapper  div{
+.wrapper div{
     background-color: rgb(255,100,100);
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.wrapper .fixed-div{
+    position: fixed;
+    background-color: rgb(100,255,100);
+    top: 200px;
+    left: 0;
+    min-height: 200px;
+    width: 200px;
 }
