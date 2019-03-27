@@ -1,0 +1,41 @@
+
+
+.wrapper { /* header, main und footer sind Elemente von .wrapper*/
+    display: flex;
+    flex-flow: column nowrap;
+    /*justify-content: space-between;*/
+    height: 100vh;    /*  bewirkt, dass das Layout immer den ganzen sichtbaren Screen ausfüllt  */
+}
+
+
+header {
+    height: 100px;
+    background-color: red;
+}
+
+
+main{  /* nav, article und aside sind Elemente von main*/
+    flex: 1 0 auto;   /*  hier ist main ein Item von .wrapper und nimmt mit auto den ganzen übrigen Platz ein */
+    display: flex;    /*  hier ist main der Container  */
+}
+
+nav {
+    background-color: orange;
+    flex: 1 1 20%;
+}
+
+article {
+    background-color: yellow;
+    flex: 3 3 60%;
+}
+
+aside {
+    background-color: deepskyblue;
+    flex: 1 1 20%;
+}
+
+
+footer {
+    height: 100px;
+    background-color: green;
+}
