@@ -1,0 +1,14 @@
+.wrapper{
+    background-color: rgb(100,100,100);
+    min-height: 500px;
+    position: relative;
+}
+
+.wrapper > div{
+    background-color: rgb(255,100,100);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  /* umplatzieren eines Elementes  x,y */
+}                                      /* positive Werte heisst nach rechts und unten
+                                          negative Werte heisst nach links und oben */
