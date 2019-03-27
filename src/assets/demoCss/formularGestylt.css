@@ -1,0 +1,82 @@
+
+/*@import 'reset.css';*/
+
+.wrapper{
+    background-color: #e2e2e2;
+    margin: 0 auto;
+    padding: 20px 50px;
+    max-width: 500px;
+}
+
+
+.inputFieldWrapper{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+
+.inputField, .radioGroupWrapper{
+    align-items: flex-start;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 8px;
+}
+
+.inputField > label, .radioGroupWrapper > label{
+    flex: 1 1 33%;
+}
+
+.inputField > input, .inputField > select, .inputField > textarea, .radioGroupWrapper > .radioGroup{
+    flex: 1 1 66%;
+}
+
+.inputField > input, .inputField > select{
+    height: 32px;
+}
+
+
+.radioGroup{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.radioGroup__item{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.radioGroup__item > label {
+    order: 1;
+    padding-left: 8px;
+}
+
+.radioGroup__item > input {
+    order: 0;
+}
+
+.inputField > label::after, .radioGroupWrapper > label::after{
+    content: ":";
+}
+
+label{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+input[type="checkbox"]{
+    margin-right: 8px;
+}
+
+input[type="submit"]{
+    background-color: #000000;
+    color: #ffffff;
+    height: 32px;
+    margin-top: 16px;
+    width: 100%;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #000000;
+}
