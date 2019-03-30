@@ -1,0 +1,54 @@
+/*
+// Verwendung von extend
+.blue_button {   //%
+  background: #336699;
+  display: block;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+  margin-bottom: 20px;
+  min-width: 150px;
+}
+
+
+.login_button {
+  @extend .blue_button;  //%
+}
+
+.checkout_button {
+  @extend .blue_button;  //%
+  color: darken(#336699, 30%);
+}
+
+.order_button {
+  @extend .blue_button;  //%
+  color: rgb(255,0,0);
+}*/
+.login_button {
+  background: #336699;
+  display: block;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+  margin-bottom: 20px;
+  min-width: 150px; }
+
+.checkout_button {
+  background: #336699;
+  display: block;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+  margin-bottom: 20px;
+  min-width: 150px;
+  color: #0d1a26; }
+
+.order_button {
+  background: #336699;
+  display: block;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+  margin-bottom: 20px;
+  min-width: 150px;
+  color: red; }

@@ -25,6 +25,11 @@ gulp.task('serveSass', gulp.series('sass', () => {
     });
 
     /**
+     * watch for changes in css files
+     */
+    gulp.watch('./src/assets/demoCss/**/*.css').on('change', browserSync.reload);
+
+    /**
      * watch for changes in sass files
      */
     gulp.watch('./src/assets/scss/**/*.scss', gulp.parallel('sass'));
@@ -32,7 +37,7 @@ gulp.task('serveSass', gulp.series('sass', () => {
     /**
      * watch for changes in html files
      */
-    gulp.watch('./src/*.html').on('change', browserSync.reload);
+    gulp.watch('./src/**/*.html').on('change', browserSync.reload);
 }));
 
 
@@ -62,6 +67,6 @@ gulp.task('serveCss', () => {
  * compile the site, launch BrowserSync then watch
  * files for changes
  */
-gulp.task('default', gulp.parallel('serveCss'), () => {});
+gulp.task('default', gulp.parallel('serveSass'), () => {});
 
 
