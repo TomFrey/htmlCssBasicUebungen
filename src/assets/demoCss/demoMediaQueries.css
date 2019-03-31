@@ -1,0 +1,36 @@
+.box {
+    background-color: red;
+    height: 100px;
+    margin: 16px;
+    width: 100px;
+}
+
+.mittel, .gross {
+    display: none;
+}
+
+
+/* grösser 450px*/
+@media screen and (min-width: 450px) {
+    .klein, .gross {
+        display: none;
+    }
+
+    .mittel{
+        background-color: bisque;
+        display: block;
+    }
+}
+
+
+/* grösser 1000px */
+@media screen and (min-width: 1000px) {
+    .mittel, .klein {
+        display: none;
+    }
+
+    .gross {
+        background-color: yellow;
+        display: block;
+    }
+}
