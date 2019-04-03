@@ -1,18 +1,36 @@
-.wrapper{
-    background-color: rgb(100,100,100);
-    border: 2px solid rgb(0,0,0);
-    min-height: 700px;
-    position: relative;
+
+.box1, .box2{
+    display: flex;
+    margin: auto;
 }
 
-.wrapper div{
+
+.box1{
+    background-color: rgb(120,120,120);
+    height: 300px;
+    width: 300px;
+    /*position: relative;*/
+}
+
+.box2{
+    background-color: rgb(160,160,160);
+    height: 200px;
+    width: 200px;
+    /*position: relative;*/
+}
+
+.box3{
     background-color: rgb(255,100,100);
-    position: absolute;
-    top: 0;
-    left: 0;
+    height: 100px;
+    width: 100px;
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
 }
 
-.wrapper .fixed-div{
+
+.fixed-box{
+    display: none;
     position: fixed;
     background-color: rgb(100,255,100);
     top: 200px;
