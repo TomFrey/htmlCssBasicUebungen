@@ -24,22 +24,22 @@ nav{
     padding: 5px 0;
 }
 
-nav ul{
+.ebene1, .ebene2{
     margin: 0;
     padding: 0;
 }
 
-nav ul li{
+.ebene1 > li{
     list-style-type: none;
     float: left;
     padding: 0;
 }
 
-nav ul li:not(:last-of-type)::after{
+.ebene1 > li:not(:last-of-type)::after{
     content: "|";
 }
 
-nav ul li a{
+.ebene1 > li a{
     color: #FFFFFF;
     text-decoration: none;
     display: inline-block;
@@ -47,31 +47,24 @@ nav ul li a{
 }
 
 
-nav ul li a:hover{
+.ebene1 > li a:hover{
     color: rgb(0,255,100);
 }
 
 
-
 /* unter menu*/
-nav ul li ul {
+.ebene2 {
     position: absolute;
     display: none;
     background-color: black;
     color: white;
 }
 
-nav ul li ul li{
-    float: none;
+.ebene2 > li{
+    list-style-type: none;
 }
 
-nav ul li ul li:not(:last-of-type)::after{
-   content: "";
-}
-
-
-
-nav ul li:hover ul {
+.ebene1 > li:hover .ebene2 {
     display: block;
 }
 
