@@ -1,0 +1,93 @@
+@media screen and (max-width: 687px) {
+  .wrapper header, .wrapper footer {
+    background-color: #c86400;
+    color: white;
+    height: 50px; }
+  .wrapper aside, .wrapper main {
+    height: 100px; }
+  .wrapper header {
+    order: 0; }
+  .wrapper nav {
+    height: 50px;
+    background-color: #c8c8c8;
+    order: 1; }
+  .wrapper aside {
+    background-color: #336699;
+    color: #FFFFFF;
+    order: 2; }
+  .wrapper main {
+    background-color: #0d1a26;
+    color: #FFFFFF;
+    order: 3; }
+  .wrapper footer {
+    order: 4; } }
+
+@media screen and (min-width: 960px) {
+  .wrapper header, .wrapper footer {
+    background-color: #c86400;
+    color: white;
+    height: 50px; }
+  .wrapper aside, .wrapper main {
+    height: 100px; }
+  .wrapper header {
+    order: 0; }
+  .wrapper nav {
+    height: 50px;
+    background-color: #c8c8c8;
+    order: 1; }
+  .wrapper aside {
+    background-color: #336699;
+    color: #FFFFFF;
+    order: 2; }
+  .wrapper main {
+    background-color: #0d1a26;
+    color: #FFFFFF;
+    order: 3; }
+  .wrapper footer {
+    order: 4; } }
+
+@media screen and (min-width: 688px) and (max-width: 960px) {
+  .wrapper header, .wrapper footer {
+    background-color: black;
+    color: white;
+    height: 100px; }
+  .wrapper nav, .wrapper aside, .wrapper main {
+    height: 100px; }
+  .wrapper header {
+    order: 0; }
+  .wrapper nav {
+    background-color: #c8c8c8;
+    order: 1; }
+  .wrapper aside {
+    background-color: #336699;
+    color: #FFFFFF;
+    order: 2; }
+  .wrapper main {
+    background-color: #0d1a26;
+    color: #FFFFFF;
+    order: 3; }
+  .wrapper footer {
+    order: 4; } }
+
+@media screen and (min-width: 960px) {
+  .wrapper {
+    display: flex;
+    flex-flow: row wrap; }
+    .wrapper header, .wrapper footer {
+      background-color: #999999;
+      color: #ffffff;
+      height: 100px;
+      flex: 0 1 100%; }
+    .wrapper nav {
+      background-color: #c8c8c8;
+      display: block;
+      flex: 0 1 100%;
+      height: 50px; }
+    .wrapper main {
+      background-color: green;
+      flex: 7 7 70%;
+      height: 200px; }
+    .wrapper aside {
+      background-color: yellow;
+      flex: 3 3 30%;
+      height: 200px; } }
